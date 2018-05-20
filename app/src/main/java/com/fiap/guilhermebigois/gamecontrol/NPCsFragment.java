@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class NPCFragment extends Fragment {
+public class NPCsFragment extends Fragment {
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
 
@@ -17,10 +17,10 @@ public class NPCFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public NPCFragment() {}
+    public NPCsFragment() {}
 
-    public static NPCFragment newInstance(String param1, String param2) {
-        NPCFragment fragment = new NPCFragment();
+    public static NPCsFragment newInstance(String param1, String param2) {
+        NPCsFragment fragment = new NPCsFragment();
         Bundle args = new Bundle();
 
         args.putString(ARG_PARAM1, param1);
@@ -43,7 +43,7 @@ public class NPCFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_npc, container, false);
+        return inflater.inflate(R.layout.fragment_npcs, container, false);
     }
 
     public void onButtonPressed(Uri uri) {
