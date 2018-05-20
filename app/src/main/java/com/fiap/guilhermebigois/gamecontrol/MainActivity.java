@@ -1,5 +1,6 @@
 package com.fiap.guilhermebigois.gamecontrol;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -52,7 +53,10 @@ public class MainActivity extends AppCompatActivity
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_about) {
+            Intent intent = new Intent(MainActivity.this, AboutActivity.class);
+            startActivity(intent);
+
             return true;
         }
 
@@ -64,18 +68,16 @@ public class MainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // INSERT CODE HERE
-        } else if (id == R.id.nav_gallery) {
-            // INSERT CODE HERE
-        } else if (id == R.id.nav_slideshow) {
-            // INSERT CODE HERE
-        } else if (id == R.id.nav_manage) {
-            // INSERT CODE HERE
-        } else if (id == R.id.nav_share) {
-            // INSERT CODE HERE
-        } else if (id == R.id.nav_send) {
-            // INSERT CODE HERE
+        if (id == R.id.nav_npc) {
+            getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new CharsFragment()).commit();
+        } else if (id == R.id.nav_item) {
+            getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new ItensFragment()).commit();
+        } else if (id == R.id.nav_creature) {
+            getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new CreaturesFragment()).commit();
+        } else if (id == R.id.nav_vocation) {
+            getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new VocationsFragment()).commit();
+        } else if (id == R.id.nav_char) {
+            getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new CharsFragment()).commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
