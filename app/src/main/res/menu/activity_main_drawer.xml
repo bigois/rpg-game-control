@@ -23,5 +23,9 @@
             android:id="@+id/nav_char"
             android:icon="@drawable/ic_menu_char"
             android:title="@string/drawer_char_title" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_about"
+            android:title="@string/drawer_char_about" />
     </group>
 </menu>

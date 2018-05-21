@@ -53,8 +53,8 @@ public class MainActivity extends AppCompatActivity
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        if (id == R.id.action_about) {
-            Intent intent = new Intent(MainActivity.this, AboutActivity.class);
+        if (id == R.id.action_settings) {
+            Intent intent = new Intent(MainActivity.this, SettingsActivity.class);
             startActivity(intent);
 
             return true;
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_npc) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new CharsFragment()).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new NPCsFragment()).commit();
         } else if (id == R.id.nav_item) {
             getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new ItensFragment()).commit();
         } else if (id == R.id.nav_creature) {
@@ -78,6 +78,8 @@ public class MainActivity extends AppCompatActivity
             getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new VocationsFragment()).commit();
         } else if (id == R.id.nav_char) {
             getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new CharsFragment()).commit();
+        } else if (id == R.id.nav_about) {
+            getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new AboutFragment()).commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
