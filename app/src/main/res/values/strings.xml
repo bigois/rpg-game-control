@@ -12,4 +12,8 @@
     <string name="drawer_vocation_title">Vocations</string>
     <string name="drawer_char_title">Characters</string>
     <string name="drawer_char_about">About</string>
+    <string name="about_creator_title">CREATED BY</string>
+    <string name="about_creator_name">Guilherme Bigois</string>
+    <string name="about_creator_id">RM: 76669</string>
+    <string name="about_creator_class">3º SIR</string>
 </resources>
