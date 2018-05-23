@@ -1,4 +1,4 @@
-package com.fiap.guilhermebigois.gamecontrol;
+package com.fiap.guilhermebigois.gamecontrol.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +10,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.fiap.guilhermebigois.gamecontrol.fragment.AboutFragment;
+import com.fiap.guilhermebigois.gamecontrol.fragment.CharsFragment;
+import com.fiap.guilhermebigois.gamecontrol.fragment.CreaturesFragment;
+import com.fiap.guilhermebigois.gamecontrol.fragment.ItemsFragment;
+import com.fiap.guilhermebigois.gamecontrol.fragment.NPCsFragment;
+import com.fiap.guilhermebigois.gamecontrol.R;
+import com.fiap.guilhermebigois.gamecontrol.fragment.VocationsFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

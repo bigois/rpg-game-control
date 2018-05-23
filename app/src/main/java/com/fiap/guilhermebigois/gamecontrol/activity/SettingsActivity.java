@@ -1,7 +1,9 @@
-package com.fiap.guilhermebigois.gamecontrol;
+package com.fiap.guilhermebigois.gamecontrol.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.fiap.guilhermebigois.gamecontrol.R;
 
 public class SettingsActivity extends AppCompatActivity {
 
