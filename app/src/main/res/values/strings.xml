@@ -16,4 +16,11 @@
     <string name="about_creator_name">Guilherme Bigois</string>
     <string name="about_creator_id">RM: 76669</string>
     <string name="about_creator_class">3º SIR</string>
+    <string name="settings_title_registred">REGISTRED USERS</string>
+    <string name="settings_button_back">BACK</string>
+    <string name="settings_title_register" >REGISTER USER</string>
+    <string name="settings_hint_email">username@account.com</string>
+    <string name="settings_hint_username">nickname</string>
+    <string name="settings_button_submit">SUBMIT</string>
+    <string name="settings_error_empty_fields">Oops... There\'re empty fields</string>
 </resources>
