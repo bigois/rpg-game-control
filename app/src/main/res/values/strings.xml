@@ -3,11 +3,11 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Game control actions</string>
-    <string name="nav_header_subtitle">Manage players, NPCs and itens in a RPG game</string>
+    <string name="nav_header_subtitle">Manage players, NPCs and items in a RPG game</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="drawer_npc_title">NPCs</string>
-    <string name="drawer_item_title">Itens</string>
+    <string name="drawer_item_title">Items</string>
     <string name="drawer_creature_title">Creatures</string>
     <string name="drawer_vocation_title">Vocations</string>
     <string name="drawer_char_title">Characters</string>

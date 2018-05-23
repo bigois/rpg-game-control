@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_npc) {
             getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new NPCsFragment()).commit();
         } else if (id == R.id.nav_item) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new ItensFragment()).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new ItemsFragment()).commit();
         } else if (id == R.id.nav_creature) {
             getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new CreaturesFragment()).commit();
         } else if (id == R.id.nav_vocation) {
