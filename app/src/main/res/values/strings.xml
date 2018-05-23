@@ -22,5 +22,8 @@
     <string name="settings_hint_email">username@account.com</string>
     <string name="settings_hint_username">nickname</string>
     <string name="settings_button_submit">SUBMIT</string>
-    <string name="settings_error_empty_fields">Oops... There\'re empty fields</string>
+    <string name="settings_message_empty_fields">Oops... There\'re empty fields</string>
+    <string name="settings_message_success">New user data added successfully</string>
+    <string name="settings_layout_label_nickname">NICKNAME:</string>
+    <string name="settings_layout_label_email">E-MAIL:</string>
 </resources>

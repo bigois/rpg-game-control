@@ -102,5 +102,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtNickname"
         app:layout_constraintVertical_bias="0.0" />
+    
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rclUserList"
+        android:layout_width="0dp"
+        android:layout_height="268dp"
+        android:clipChildren="true"
+        app:layout_constraintBottom_toTopOf="@+id/btnExit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblRegistred"
+        app:layout_constraintVertical_bias="0.57" />
 
 </android.support.constraint.ConstraintLayout>
