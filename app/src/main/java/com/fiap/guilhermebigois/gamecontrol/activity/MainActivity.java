@@ -18,10 +18,13 @@ import com.fiap.guilhermebigois.gamecontrol.fragment.ItemsFragment;
 import com.fiap.guilhermebigois.gamecontrol.fragment.NPCsFragment;
 import com.fiap.guilhermebigois.gamecontrol.R;
 import com.fiap.guilhermebigois.gamecontrol.fragment.VocationsFragment;
+import com.fiap.guilhermebigois.gamecontrol.model.User;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

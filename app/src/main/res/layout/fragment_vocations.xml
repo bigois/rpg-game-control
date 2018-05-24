@@ -1,19 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/vocations_frame"
+    android:id="@+id/vocation_frame"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragment.VocationsFragment">
-
+    
     <android.support.constraint.ConstraintLayout
+        android:id="@+id/lytVocationConstraint"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
+        
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rclVocationList"
+            android:layout_width="411dp"
+            android:layout_height="468dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginStart="2dp"
+            app:layout_constraintBottom_toTopOf="@+id/btnVocationRegister"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.82" />
+    
+        <Button
+            android:id="@+id/btnVocationRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/vocation_title_registration"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.99" />
+    
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="VOCATIONS" />
+            android:id="@+id/lblVocationRegistred"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/vocation_title_registred"
+            app:layout_constraintBottom_toTopOf="@+id/rclVocationList"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
     </android.support.constraint.ConstraintLayout>
 
 </FrameLayout>
