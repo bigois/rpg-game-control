@@ -10,7 +10,7 @@
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
+    
         <TextView
             android:id="@+id/lblCreatorTitle"
             android:layout_width="wrap_content"
@@ -24,8 +24,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.120000005" />
-
+            app:layout_constraintVertical_bias="0.25" />
+    
         <TextView
             android:id="@+id/lblCreatorName"
             android:layout_width="wrap_content"
@@ -39,7 +39,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/lblCreatorTitle"
-            app:layout_constraintVertical_bias="0.01999998" />
+            app:layout_constraintVertical_bias="0.0" />
 
         <ImageView
             android:id="@+id/imgCreatorPhoto"
@@ -55,7 +55,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/lblCreatorName"
             app:layout_constraintVertical_bias="0.07999998" />
-
+    
         <TextView
             android:id="@+id/lblCreatorId"
             android:layout_width="wrap_content"
@@ -69,7 +69,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/lblCreatorClass"
-            app:layout_constraintVertical_bias="0.089999974" />
+            app:layout_constraintVertical_bias="0.0" />
 
         <TextView
             android:id="@+id/lblCreatorClass"

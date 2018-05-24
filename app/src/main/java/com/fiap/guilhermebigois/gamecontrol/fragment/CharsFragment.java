@@ -12,7 +12,7 @@ import com.fiap.guilhermebigois.gamecontrol.activity.CharRegistrationActivity;
 import com.fiap.guilhermebigois.gamecontrol.R;
 
 public class CharsFragment extends Fragment {
-    private Button btnVocationRegister;
+    private Button btnCharRegister;
     private View myView;
     
     public CharsFragment() {}
@@ -21,9 +21,9 @@ public class CharsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         myView = inflater.inflate(R.layout.fragment_chars, container, false);
-        btnVocationRegister = myView.findViewById(R.id.btnVocationRegister);
+        btnCharRegister = myView.findViewById(R.id.btnCharRegister);
         
-        btnVocationRegister.setOnClickListener(new View.OnClickListener() {
+        btnCharRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), CharRegistrationActivity.class);

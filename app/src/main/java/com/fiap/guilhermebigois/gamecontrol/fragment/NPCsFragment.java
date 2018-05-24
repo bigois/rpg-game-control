@@ -12,8 +12,8 @@ import com.fiap.guilhermebigois.gamecontrol.R;
 import com.fiap.guilhermebigois.gamecontrol.activity.NPCRegistrationActivity;
 
 public class NPCsFragment extends Fragment {
-    private View myView;
     private Button btnNPCRegister;
+    private View myView;
     
     public NPCsFragment() {}
 

@@ -12,8 +12,8 @@ import com.fiap.guilhermebigois.gamecontrol.R;
 import com.fiap.guilhermebigois.gamecontrol.activity.ItemRegistrationActivity;
 
 public class ItemsFragment extends Fragment {
-    private View myView;
     private Button btnItemRegister;
+    private View myView;
     
     public ItemsFragment() {}
 
